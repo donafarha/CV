@@ -1,0 +1,187 @@
+/* import starts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* import ends */
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: gray;
+}
+
+.formet{
+    margin: 0% auto;
+    background-color: honeydew;
+    max-width: 900px;
+    padding: 10px;
+}
+
+
+
+#pic{
+    height: 100px;
+    width: 100px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    float: left;
+}
+
+.name{
+    color: #03253098;
+    float: left;
+    padding: 10px 15px;
+
+}
+.name h1 abbr{
+    text-decoration: none;
+    font-size: 25px;
+}
+.name h3{
+    font-family: 'Great Vibes', cursive;
+}
+
+.contact{
+    margin: 20px;
+    float: right;
+    font-size: 15px;
+
+}
+.contact p{
+    color: teal;
+}
+.contact p a{
+    text-decoration: none;
+    color: teal;
+}
+.contact p a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+header{
+    padding: 15px;
+}
+.clear{
+    clear: both;
+}
+.header-hr{
+    border: 1px solid black;
+}
+
+
+.left{
+    width: 30%;
+    float: left;
+}
+
+.right{
+    max-width: 68%;
+    float: left;
+}
+.comon-hr{
+    border-bottom: 2px solid gray;
+    margin: 10px auto;
+}
+
+.left-content{
+    padding: 10px 5px 0px 35px;
+    color: #1f6f72b4;
+}
+.right-content{
+    padding: 10px 20px 20px 0px;
+    text-align: justify;
+}
+
+.right-contentc{
+    padding: 0px 20px 10px 0px;
+    text-align: justify;
+}
+
+.right-contenth{
+    padding: 10px 5px 0px 0px;
+    color: #1f6f72b4;
+}
+.righth{
+    color: #1f6f72b4;
+}
+ul{
+    margin-left: 20px;
+	padding: 0px;
+	
+}
+ul li{
+    list-style: disc;
+	padding: 0;
+	
+}
+
+.sub-div1{
+
+	width: 100%;
+}
+
+.sub-div2{
+
+	width: 100%;
+	
+}
+.sub-div2 h3 abbr{
+	text-decoration: none;
+}
+
+.footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	
+}
+.footer a:hover{
+	text-decoration: underline;
+	color: orange;
+	
+}
+
+@media (max-width : 600px) {
+
+    .comon-hr{
+        display: none;
+    }
+    .left{
+        float: none;
+        width: 100%;
+        /* text-decoration: underline; */
+        text-align: left;
+        color: white;
+        padding-bottom: 10px;
+        background-color: #092424;
+    }
+
+    .left-content{
+        padding: 10px 5px 0px 35px;
+        color: #ffff;
+    }
+    .right{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sub-div1{
+        width: 100%;
+        float: none;
+    }
+    .sub-div2{
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+    }
+}
